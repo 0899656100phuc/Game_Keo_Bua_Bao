@@ -1,0 +1,28 @@
+#container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#game-Box{
+    font-family: 'Brus scrip MT',cursive;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: center;
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
+.choiceBtn:hover{
+    background-color: yellow;
+}
+.choiceBtn{
+    line-height: 30px;
+    width: 140px;
+    border-radius: 5px;
+}
